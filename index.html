@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/myStyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    
+    <section id="mainHeader">
+        <div class="my-Container m-auto">
+            <nav class="navbar navbar-expand-lg text-dark navbar-light bg-light my-5 p-3">
+                <div class="container">
+                    <a class="navbar-brand myTextColor myText" href="index.html">Inventario de zapatillas</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link activeLink" href="index.html">Home</a>
+                            </li>
+                    
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Productos
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="addProduct.html">Agregar producto</a>
+
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
+
+                        </ul>
+                        
+                    </div>
+                </div>
+            </nav>
+        </div>
+    
+        <div class="headContainer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="caption">
+                            <h1 class="mb-5">Agregue pares de zapatillas al stock</h1>
+                            <p class="mb-5">Estimado tutor de Coder:
+                                <br>
+                                <br>
+                                Bienvenido. Póngase cómodo y registre los pares de zapatillas que vaya recibiendo. Quedarán guardados en esta base de datos, la cual podrá consultar con el filtro de búsqueda.
+                            </p>
+
+                            <a href="addProduct.html" class="d-flex align-items-center justify-content-center"><i
+                                    class="fas fa-plus-circle fa-2x mr-2 addProduct"></i><span> Agregar producto</span></a>
+
+                        </div>
+                    </div>
+                    <div class="col-md-7 d-lg-block d-md-block d-none">
+                        <div class="shoe">
+                            <img src="images/revolt-164_6wVEHfI-unsplash.jpg" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <h2>Stock fijo disponible</h2>
+            <br>
+        </div>
+        
+        <div id="productosContenedor" class="continer d-flex">
+
+        </div>
+    </section>
+    
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/products.js"></script>
+    <script src="/js/main.js" type="module"></script>
+  
+</body>
+
+</html>
